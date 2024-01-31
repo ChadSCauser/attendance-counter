@@ -1,0 +1,53 @@
+body {
+    background-image: url("https://www.shropshirestar.com/resizer/7oOirpn06WFLA-2_tEVsDCJZGaM=/300x225/cloudfront-us-east-1.images.arcpublishing.com/mna/4B6VU46RUREFFCWOPELB7WWNVE.jpg");
+    background-size: cover;
+    font-family: 'Calibri, 'Trebuchet MS', sans-serif';
+    text-align: center;
+    color: white;
+    height: 100vh;
+}
+
+.container {
+    background: black;
+    max-width: 60%;
+    margin: auto;
+    border: 3px solid orange;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: orange;
+}
+
+#save-btn {
+    background: white;
+    border: 3px orange;
+    border-radius: 10px;
+    color: black;
+}
+
+#save-el {
+    font-weight: bold;
+}
